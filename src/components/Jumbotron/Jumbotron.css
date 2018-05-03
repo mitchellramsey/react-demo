@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("assets/cloth.png");
+}
+
+.jumbotron .container {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.jumbotron .container h1 {
+    font-size: 48px;
+}
