@@ -27,12 +27,17 @@ class App extends Component {
           statement={this.state.navStatement}
         />
         <Jumbotron />
-        {/* <Wrapper>
+        <Wrapper>
           {this.state.friends.map(friend => (
-            <FriendCard />
+            <FriendCard
+              id={friend.id}
+              image={friend.image}
+              clicked={friend.clicked}
+              onClick={this.handleClick}
+              />
           ))}
         </Wrapper>
-        <Footer /> */}
+        <Footer />
       </div>
     );
   }

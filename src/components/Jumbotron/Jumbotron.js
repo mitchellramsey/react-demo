@@ -1,6 +1,6 @@
 import React from "react";
 import "./Jumbotron.css";
-import backgroundimg from "./assets/cloth.png";
+
 const Jumbotron = () => (
     <div className="jumbotron jumbotron-fluid">
       <div class="container">
