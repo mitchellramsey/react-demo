@@ -6,7 +6,7 @@
     position: relative;
     width: 325px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+    text-align: center;
   }
   
   .card > .img-container {
@@ -16,8 +16,10 @@
     background:#006600;
   }
 
-  .card > .img-container:hover {
-
+  .card:hover {
+    border-color:#000;
+    border-width: 2px;
+    cursor: pointer;
   }
   .card > .img-container > img {
     width: 60%

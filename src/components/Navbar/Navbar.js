@@ -6,7 +6,7 @@ const Navbar = props => (
       <ul className="navbar-nav">
           <li className="navbar-brand nav-item">Clicky Game!</li>
           <li className="statementDisplay nav-item">{props.statement}</li>
-          <li className="nav-item">Score: {props.score} | Top Score: {props.topScore}</li>
+          <li className="nav-item">Score: {props.currentScore} | Top Score: {props.topScore}</li>
       </ul>
     </nav>
 )

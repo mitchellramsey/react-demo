@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => <div class="footer">Clicky Game!</div>;
+const Footer = () => <div className="footer">Clicky Game!</div>;
 
 export default Footer;
